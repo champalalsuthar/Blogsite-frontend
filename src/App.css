@@ -1,0 +1,43 @@
+.hide-scroll-bar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+}
+
+*/ .hide-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-slow {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    scroll-padding: 2rem;
+}
+
+
+.nav-link {
+    color: #303030;
+    font-weight: 600;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #303030;
+    font-weight: 600;
+}
+
+li.nav-item {
+    margin: 0 9px;
+}
